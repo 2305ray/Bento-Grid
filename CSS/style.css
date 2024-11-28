@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --Purple-100: hsl(254, 88%, 90%);
+    --Purple-500: hsl(256, 67%, 59%);
+  
+    --Yellow-100: hsl(31, 66%, 93%);
+    --Yellow-500: hsl(39, 100%, 71%);
+  
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+  
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+  
+    --ff: "DM Sans", sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(245, 245, 245);
+    font-family: var(--ff);
+  }
+  
+  .container {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 1.5rem;
+    letter-spacing: -1px; /*distância dos caracteres*/
+    line-height: 0.9; /*define a altura da linha*/
+  }
+  
+  .five-stars-container {
+    font-size: 3.5rem;
+    font-weight: var(--fw-500);
+    color: var(--White);
+    padding: 2.5rem;
+    background-color: var(--Purple-500);
+    text-align: center;
+    align-items: center;
+  }
+  
+  .five-stars-container span {
+    color: var(--Yellow-500);
+  }
+  
+  .five-stars-container .reviews {
+    font-size: 1.3rem;
+    font-weight: var(--fw-300);
+  }
+  
+  .five-stars-img {
+    width: 100%;
+    max-width: 13rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .multiple-platforms-container {
+    background-color: var(--White);
+    color: var(--Black);
+    font-weight: var(--fw-600);
+    font-size: 1.7rem;
+  }
+  .multiple-platforms-img {
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .calender-container {
+    background-color: var(--Yellow-500);
+    font-size: 2rem;
+    font-weight: var(--fw-500);
+    padding-bottom: 0;
+  }
+  .calender-img {
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 17.5rem;
+  }
+  
+  .schedule-posts-container {
+    background-color: var(--Purple-100);
+    color: var(--Black);
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: var(--fw-600);
+  }
+  
+  .schedule-posts-info {
+    font-size: 1.5rem;
+    font-weight: var(--fw-400);
+  }
+  
+  .schedule-posts-img {
+    width: 100%;
+    max-width: 20rem;
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+  
+  .followers-grow-container {
+    background-color: var(--Purple-500);
+    align-items: center;
+    color: var(--White);
+    font-size: 2rem;
+    line-height: 0.9;
+    text-align: center;
+  }
+  
+  .followers-grow-container p {
+    margin-top: 1rem;
+  }
+  
+  .followers-grow-img {
+    width: 100%;
+    max-width: 13rem;
+  }
+  
+  .audience-grow-container {
+    background-color: var(--White);
+  }
+  
+  .audience-grow-container span {
+    font-size: 3rem;
+    font-weight: var(--fw-600);
+  }
+  
+  .audience-grow-container p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .audience-grow-img {
+    width: 100%;
+    max-width: 14rem;
+    margin-top: 2rem;
+  }
+  
+  .create-post-container {
+    background-color: var(--Yellow-100);
+    font-size: 2rem;
+    font-weight: var(--fw-600);
+    padding: 2.5rem;
+  }
+  .create-post-container span {
+    color: var(--Purple-500);
+  }
+  .create-post-img {
+    width: 100%;
+    max-width: 15rem;
+    margin-top: 2rem;
+  }
+  
+  .ai-content-container {
+    background-color: var(--Yellow-500);
+    color: var(--Black);
+    font-size: 2.5rem;
+    font-weight: var(--fw-500);
+  }
+  
+  .ai-content-img {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  @media (min-width: 900px) {
+    .container {
+      margin: 0;
+    }
+    body {
+      padding: 5rem;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+  
+    .five-stars-container {
+      grid-column: 2/4;
+    }
+  
+    .multiple-platforms-container {
+      grid-column: 2/3;
+      grid-row: 2/4;
+    }
+  
+    .calender-container {
+      grid-column: 3/4;
+      grid-row: 2/4;
+    }
+  
+    .schedule-posts-container {
+      grid-column: 4/5;
+      grid-row: 1/4;
+    }
+  
+    .followers-grow-container {
+      grid-column: 3/5;
+      grid-row: 4/5;
+      display: flex;
+      flex-direction: row; /*esquerda para a direita*/
+    }
+  
+    .audience-grow-container {
+      grid-column: 2/2;
+      grid-row: 4/5;
+    }
+  
+    .create-post-container {
+      padding-top: 4rem;
+      grid-column: 1/2;
+      grid-row: 1/3;
+    }
+  
+    .ai-content-container {
+      grid-column: 1/2;
+      grid-row: 3/5;
+    }
+  }
+    
