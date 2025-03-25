@@ -1,8 +1,7 @@
-<h1 align="center"> Gaby Art </h1>
+<h1 align="center"> Bento Grid </h1>
 
 <p align="center">
-Projeto de um anúncio de curso de artes <br/>
-
+Este projeto foi desenvolvido para aprimorar minhas habilidades em CSS Grid e design responsivo, utilizando um layout de grade Bento.<br/>
 </p>
 
 <div align="center">
@@ -13,47 +12,53 @@ Projeto de um anúncio de curso de artes <br/>
 
 </div>
 
-
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000" >
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
 
 <div align="center">
-  <img alt="curso gaby" src="./gabi/gabi.png" width="50%">
+  <img alt="bento-grid" src="https://github.com/2305ray/Bento-Grid/blob/main/assets/images/bento-grid.png" width="90%">
 </div>
 
-## 🚀 Tecnologias
+---
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Tecnologias utilizadas  
 
-- HTML e CSS
+- **HTML** – Estruturação da página  
+- **CSS** – Estilização e design responsivo  
 
-## 💻 Projeto
+---
 
-Este projeto é um desafio do Frontend Mentor. A plataforma fornece designs para que desenvolvedores possam praticar HTML, CSS e JavaScript. Eles especificam o que deve ser feito no projeto e sugerem melhorias para aprimorá-lo ainda mais.
+## 💻 Sobre o projeto  
 
-- [Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
+Este projeto foi criado como parte de um desafio do **Frontend Mentor**, que fornece designs para que desenvolvedores possam praticar **HTML, CSS e JavaScript**.  
 
+O layout **Bento Grid** é inspirado nas tradicionais **bento boxes japonesas**, que organizam diferentes elementos em compartimentos visuais distintos. Essa abordagem permite uma estrutura harmoniosa e visualmente agradável.
 
-## 🔖 Layout
+- 🔗 [Desafio no Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
 
+---
+
+## 🔖 Layout  
+
+### 📱 Mobile  
 <p align="center">
-  <img alt="curso gaby" src="./gabi/Home-landing=page-gaby.png" width="100%">
-
+  <img alt="bento-grid" src="https://github.com/2305ray/Bento-Grid/blob/main/assets/images/bento-grid-mobile.jpg" width="25%">
 </p>
 
+---
 
 ## 🛠 Como rodar o projeto
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/2305ray/LandingPage-ArtGaby.git
+   git clone https://github.com/2305ray/Bento-Grid.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd LandingPage-ArtGaby
+   cd Bento-Grid
    ```
 3. Abra o arquivo index.html no navegador:
    ```bash
@@ -63,4 +68,3 @@ Este projeto é um desafio do Frontend Mentor. A plataforma fornece designs para
 
 <p align="center"> Feito com ♥ </p>
 
-<img alt="curso gaby" src="./gabi/home-landingPage-gaby2.png" width="100%">
